@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.ar.sceneform:core:1.17.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8e654215df5ad126eedac24414859c48/transformed/jetified-core-1.17.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/da2808ee89c77ad9b18313d5cb94f558/transformed/jetified-core-1.17.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3834858baa6d12ba265a563f64021b44/transformed/jetified-core-1.17.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/747d8ab2c1623d9ffaf7dd0ba7a5de76/transformed/jetified-core-1.17.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/747d8ab2c1623d9ffaf7dd0ba7a5de76/transformed/jetified-core-1.17.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/747d8ab2c1623d9ffaf7dd0ba7a5de76/transformed/jetified-core-1.17.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7bcc622fc2384ea88cc392bc802b21b0/transformed/jetified-core-1.17.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7bcc622fc2384ea88cc392bc802b21b0/transformed/jetified-core-1.17.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7bcc622fc2384ea88cc392bc802b21b0/transformed/jetified-core-1.17.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

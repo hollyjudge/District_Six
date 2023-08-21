@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.district6">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/logo_rectangle_foreground"
+        android:label="District 6 Walking Tour"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DisplayAMap"
+        tools:targetApi="31">
+
+        <activity
+            android:name="com.example.district6.LandingPage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="https"
+                    android:host="www.districtsix.co.za"
+                    android:pathPattern="/D6website" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.district6.MapView" />
+        <activity android:name="com.example.district6.userFeedback" />
+        <activity android:name="com.example.district6.MediaActivity" />
+        <activity android:name="com.example.district6.ImageActivity" />
+        <activity android:name="com.example.district6.VideoActivity" />
+    </application>
+
+</manifest>

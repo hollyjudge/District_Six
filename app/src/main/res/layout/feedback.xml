@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/thankyou"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:gravity="center"
+        android:lines="3"
+        android:maxLines="3"
+        android:singleLine="false"
+        android:layout_centerHorizontal="true"
+        android:text="We would love to get feedback on your experience with the app! Let us know below."
+        android:textSize="18dp"
+        android:textStyle="bold|normal" />
+
+    <EditText
+        android:id="@+id/namedata"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thankyou"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="22dp"
+        android:ems="15"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/emaildata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namedata"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/messagedata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emaildata"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:hint="Feedback"
+        android:lines="10"
+        android:maxLines="10"
+        android:minLines="1" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/messagedata"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="@color/screenBackground"
+        android:enabled="true"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold|normal" />
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btn_send"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/screenBackground"
+        android:enabled="true"
+        android:text="Return Home"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold|normal" />
+</RelativeLayout>

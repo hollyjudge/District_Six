@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MediaActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/topImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/descTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:textStyle="normal"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/imageButton"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:padding="5dp"
+            android:backgroundTint="@color/screenBackground"
+            android:text="View Images"
+            android:textColor="@color/white"></Button>
+
+        <Button
+            android:id="@+id/videoButton"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:padding="5dp"
+            android:backgroundTint="@color/screenBackground"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:text="Watch Video"
+            > </Button>
+
+        <Button
+            android:id="@+id/arButton"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:text="Explore Augmented Reality"
+            android:visibility="invisible"
+            android:backgroundTint="@color/screenBackground"> </Button>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

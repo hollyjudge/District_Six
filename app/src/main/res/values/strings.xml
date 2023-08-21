@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Display a map</string>
+    <string name="location_permission_denied">LocationDisplayManager cannot run because location permission was denied</string>
+    <string name="title_activity_feedback">feedback</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="txtCredits"><a href="https://www.districtsix.co.za">https://www.districtsix.co.za</a></string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- Strings for media display -->
+
+    <string name="stmarks_desc">
+        <br> St Mark\'s Anglican Church stands steadfast on the hill in District Six. A symbol of tradition for some, the church was once called the "Cathedral of District Six" and the "small Vatican", and still holds High Mass three times a month. Here, the congregation streams down the hill after a Sunday morning service. Many once lived in the now bare land of District Six.
+
+It is a stone church on a hill in Cape Town that shines like a beacon flame in our city\'s history. It was built in 1867 in District Six and has served the Anglicans of that community since then to the present day.
+Between 1969 and 1984, some forty thousand District Six residents were evicted by the Group Areas Act, and relocated in houses scattered all over the Cape Flats, their homes demolished.
+Faced with the prospect of their church being de-consecrated, the St Mark\'s congregation firmly rejected the Government\'s offer to rebuild the church, stone for stone - an exact replica - in Athlone, and returned the two million rand compensation cheque.
+At the same time they decided that, regardless of distance, "they would, as far as possible, continue as before." And so they did.
+ </br>
+    </string>
+
+    <string name="starcinema_desc">
+        <br> A place where people came to interact and enjoy community. Star Cinema was one of many cinemas and hangout spots in District 6. The first talkie films were shown here in 1932. In later years it became the least sophisticated cinema in District Six.
+            Along with the other cinemas in District Six, it closed and was demolished circa 1967, to comply with the then Government’s Group Area Act. </br>
+    </string>
+
+    <string name="hanover_desc">
+        <br> Hanover Street in District Six was where residents used to gather to shop and socialise, fostering a sense of belonging and community.
+
+The road the national government and the City of Cape Town renaming Hanover Street – is not the original Hanover Street.
+
+The Cape Technikon, which was built during apartheid for white students and merged with various colleges to form the Cape Peninsula University of Technology, built its campus over most of the original Hanover Street.
+There is, however, a small section of the road that still exists. The museum organises an annual Walk of Remembrance to this remnant of the street, where former residents gather to remain connected to their heritage.
+
+ </br>
+    </string>
+
+    <string name="sevensteps_desc">
+        <br> The Seven Steps of stone, worn by the thousands who used these over the years, to work, to home, to school, to play, to ‘bok’, to church, to mosque, to shop, to celebrate and to mourn, were part of the great big soul of the district. Today, so many years after its destruction, the Seven Steps stands out as the premier symbol of District Six
+The seven stone steps standing in the heart of District Six became one of those enduring symbols of District Six that still lives in the hearts of all who lived, loved, played and worked in the ‘District’. The Seven Steps became a powerful representation of popular memory
+ </br>
+    </string>
+
+    <string name="publicwashhouse_desc">
+        <br> Bathhouses serve as a gathering place, an invitation to connect in a setting where sensual absorption replaces small talk
+Public baths and washhouses made it much easier for people to wash themselves and their clothes.
+ </br>
+    </string>
+
+    <string name="district6_desc">
+        <br> District Six was named the Sixth Municipal District of Cape Town in 1867. Originally established as a mixed community of freed slaves, merchants, artisans, laborers and immigrants,
+District Six was a vibrant center with close links to the city and the port. By the beginning of the twentieth century, however, the process of removals and marginalization had begun.
+The first to be forced out were black South Africans who were displaced from the District in 1901. As the more prosperous moved away to the suburbs, the area became a neglected ward of the city.
+On 11 February 1966 it was declared a white area under the Group Areas Act of 1950, and by 1982, the life of the community was over. More than 60 000 people were forcibly removed to barren outlying areas aptly known as the Cape Flats, and their houses in District Six were flattened by bulldozers.
+ </br>
+    </string>
+
+    <string name="video_message">
+        <br> Watch this Space! Video Coming Soon
+        </br>
+    </string>
+
+    <!--
+      <string-array name="descriptions">
+          <item> St Mark\'s Anglican Church stands steadfast on the hill in District Six. A symbol of tradition for some, the church was once called the "Cathedral of District Six" and the "small Vatican", and still holds High Mass three times a month. Here, the congregation streams down the hill after a Sunday morning service. Many once lived in the now bare land of District Six.
+
+  It is a stone church on a hill in Cape Town that shines like a beacon flame in our city\'s history. It was built in 1867 in District Six and has served the Anglicans of that community since then to the present day.
+  Between 1969 and 1984, some forty thousand District Six residents were evicted by the Group Areas Act, and relocated in houses scattered all over the Cape Flats, their homes demolished.
+  Faced with the prospect of their church being de-consecrated, the St Mark\'s congregation firmly rejected the Government\'s offer to rebuild the church, stone for stone - an exact replica - in Athlone, and returned the two million rand compensation cheque.
+  At the same time they decided that, regardless of distance, "they would, as far as possible, continue as before." And so they did. </item>
+
+          <item> A place where people came to interact and enjoy community. Star Cinema was one of many cinemas and hangout spots in District 6. The first talkie films were shown here in 1932. In later years it became the least sophisticated cinema in District Six.
+              Along with the other cinemas in District Six, it closed and was demolished circa 1967, to comply with the then Government’s Group Area Act. </item>
+
+          <item> Hanover Street in District Six was where residents used to gather to shop and socialise, fostering a sense of belonging and community.
+
+  The road the national government and the City of Cape Town renaming Hanover Street – is not the original Hanover Street.
+
+  The Cape Technikon, which was built during apartheid for white students and merged with various colleges to form the Cape Peninsula University of Technology, built its campus over most of the original Hanover Street.
+  There is, however, a small section of the road that still exists. The museum organises an annual Walk of Remembrance to this remnant of the street, where former residents gather to remain connected to their heritage. </item>
+
+          <item> The Seven Steps of stone, worn by the thousands who used these over the years, to work, to home, to school, to play, to ‘bok’, to church, to mosque, to shop, to celebrate and to mourn, were part of the great big soul of the district. Today, so many years after its destruction, the Seven Steps stands out as the premier symbol of District Six
+  The seven stone steps standing in the heart of District Six became one of those enduring symbols of District Six that still lives in the hearts of all who lived, loved, played and worked in the ‘District’. The Seven Steps became a powerful representation of popular memory </item>
+
+          <item> Bathhouses serve as a gathering place, an invitation to connect in a setting where sensual absorption replaces small talk
+  Public baths and washhouses made it much easier for people to wash themselves and their clothes. </item>
+
+          <item> District Six was named the Sixth Municipal District of Cape Town in 1867. Originally established as a mixed community of freed slaves, merchants, artisans, laborers and immigrants,
+  District Six was a vibrant center with close links to the city and the port. By the beginning of the twentieth century, however, the process of removals and marginalization had begun.
+  The first to be forced out were black South Africans who were displaced from the District in 1901. As the more prosperous moved away to the suburbs, the area became a neglected ward of the city.
+  On 11 February 1966 it was declared a white area under the Group Areas Act of 1950, and by 1982, the life of the community was over. More than 60 000 people were forcibly removed to barren outlying areas aptly known as the Cape Flats, and their houses in District Six were flattened by bulldozers. </item>
+      </string-array>
+  -->
+</resources>

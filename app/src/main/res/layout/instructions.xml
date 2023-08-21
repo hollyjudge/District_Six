@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="530dp"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    tools:context="com.example.district6.LandingPage">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:lines="50"
+        android:text="You will now be taken to the District Six walking tour!\n\nA red line plots your route, and markers represent historical landmarks. Click on them to learn more, or, better yet, walk the tour and experience them pop-up when you reach their locations.\n\nThe toggle in the top right corner switches between today's map and the map of 1985 (prior to forced removals). In the bottom right are your location options. Exit the tour using the top left button.\n\nWe hope you enjoy the tour!"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/Begin"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="440dp"
+        android:backgroundTint="@color/screenBackground"
+        android:text="Begin tour!"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        android:textStyle="bold|normal" />
+
+
+</RelativeLayout>

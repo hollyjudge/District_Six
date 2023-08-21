@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.district6.MapView">
+
+    <!-- MapView -->
+    <com.esri.arcgisruntime.mapping.view.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.esri.arcgisruntime.mapping.view.MapView>
+
+    <Switch
+        android:id="@+id/oldMapSwitch"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="600dp"
+        android:layout_marginEnd="50dp"
+        android:scaleX="2"
+        android:scaleY="2" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginEnd="50dp"
+        android:background="#00000000"
+        android:popupBackground="#00000000"
+        android:overlapAnchor="false"/>
+
+    <Button
+        android:id="@+id/feedback"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="599dp"
+        android:background="@color/white"
+        android:text="Exit tour"
+        android:textSize="17dp" />
+
+
+</RelativeLayout>
